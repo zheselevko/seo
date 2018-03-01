@@ -1,0 +1,335 @@
+.top-box
+	background: #000
+	padding: 25px 0
+	.phone, .mails
+		font-size: 16px
+		color: #fff
+		font-family: TTDrugs-Thin
+		font-weight: 400
+		line-height: 2rem
+		position: relative
+		padding-left: 40px
+		a
+			color: #fff
+			&:hover
+				text-decoration: none
+
+		&:before
+			content: ''
+			position: absolute
+			left: 0
+			top: 50%
+			margin-top: -9px
+			width: 18px
+			height: 18px
+			background: #ff6600
+	.mails
+		padding-left: 0
+		&:before
+			display: none
+	.btn
+		border-radius: 19px
+		color: #1b2026
+		font-size: 18px
+		background: #00ccff
+		font-family: sofiapro-light
+		&:hover
+			background-color: #0069d9
+			border-color: #0062cc
+			color: #1b2026
+.why
+	+box
+	+clr
+	background: #1b2026 url("../img/why.png") 0 0 no-repeat
+	.container
+		padding: 90px 0
+		.heading
+			font-size: 100px
+			color: #fff
+			font-weight: 400
+			font-family: MinionPro-Regular
+			line-height: 6rem
+			margin-bottom: 60px
+			position: relative
+			&:before
+				content: ''
+				position: absolute
+				left: 0
+				bottom: -10px
+				width: 117px
+				height: 1px
+				background: #ff6600
+		.av
+			.item
+				position: relative
+				padding: 10px 0
+				span
+					font-size: 24px
+					color: #fff
+					font-family: TTDrugs-Thin
+					display: -webkit-flex
+					display: -moz-flex
+					display: -ms-flex
+					display: -o-flex
+					display: flex
+					padding-left: 70px
+				svg
+					position: absolute
+					left: 0
+					top: 50%
+					margin-top: -10px
+		.adv
+			.item
+				
+				.name
+					font-size: 24px
+					color: #555555
+					font-weight: 400
+					font-family: sofiapro-light
+				.numb
+					font-size: 120px
+					color: #fff
+					font-weight: 400
+					font-family: sofiapro-light
+
+.clients
+	.container
+		padding: 90px 0
+		border-bottom: 1px solid #333333
+	+box
+	+clr
+	.heading
+		font-size: 80px
+		color: #333333
+		font-weight: 400
+		font-family: MinionPro-Regular
+		line-height: 6rem
+		margin-bottom: 60px
+	a
+		position: absolute
+		bottom: 10px
+		display: block
+		i
+			font-size: 50px
+			cursor: pointer
+			&:hover
+				color: #ff6600
+	.arr-right-client
+		right: 0
+		
+	.clients-slide
+		.item
+			text-align: center
+			line-height: 100%
+			img
+				vertical-align: middle
+				display: inline-block
+				-webkit-filter: grayscale(100%)
+				filter: grayscale(100%)
+				&:hover
+					-webkit-filter: grayscale(0)
+					filter: grayscale(0)
+					-webkit-transition: width 2s
+					transition: width 2s
+.reviews
+	padding: 90px 0
+	.heading
+		font-size: 80px
+		color: #333333
+		font-weight: 400
+		font-family: MinionPro-Regular
+		line-height: 6rem
+		margin-bottom: 60px
+
+	.navi
+		position: absolute
+		top: 50%
+		list-style: none
+		padding: 0
+		li
+			text-align: center
+			a
+				i
+					font-size: 50px
+					cursor: pointer
+					+rotate(90)
+					&:hover
+						color: #ff6600
+	.wrap
+		background: #f1f1f1
+		padding: 60px 60px
+		.info
+			// text-align: center
+			img
+				display: inline-block
+				width: 154px
+				height: 154px
+			.name
+				display: inline-block
+				font-size: 24px
+				font-weight: 400
+				font-family: sofiapro-light
+		.content
+			p
+				padding: 40px 0 0 0
+				color: #000000
+				font-family: TTDrugs-Thin
+				font-weight: 400
+				font-size: 18px
+			&:before
+				content: ''
+				position: absolute
+				background: url("../img/rev.png") 0 0 no-repeat
+				width: 30px
+				height: 23px
+				top: 15px
+				left: -30px
+
+.related
+	+box
+	+clr
+	background: #000
+	padding: 50px 0
+	.heading
+		text-align: center
+		font-size: 80px
+		color: #ffffff
+		font-weight: 400
+		font-family: MinionPro-Regular
+		line-height: 6rem
+		margin-bottom: 60px
+	.cpp
+		img
+			margin-top: -26px
+	.photo
+		text-align: center
+		+r(480)
+			img
+				width: 100%
+	.apply
+		text-align: center
+
+.team
+	+box
+	+clr
+	background: #1b2026
+	padding: 80px 0
+	.heading
+		text-align: center
+		font-size: 80px
+		color: #ffffff
+		font-weight: 400
+		font-family: MinionPro-Regular
+		line-height: 6rem
+		margin-bottom: 20px
+	.team-item
+		justify-content: space-around
+		margin: 50px 0 50px 0
+		.name
+			color: #ff6600
+			font-size: 30px
+			line-height: 36px
+			font-family: ProximaNova-Black
+			margin: 20px 0
+		.info
+			span
+				color: #f1f1f1
+				font-size: 24px
+				display: -webkit-flex
+				display: -moz-flex
+				display: -ms-flex
+				display: -o-flex
+				display: flex
+				font-family: TTDrugs-Thin
+.order
+	+box
+	+clr
+	padding: 95px 0 80px 0
+	background: url("../img/order-bg.png") 0 0 no-repeat
+	.h1
+		line-height: 1
+		color: #fff
+		font-size: 80px
+		font-weight: 400
+		font-family: MinionPro-Regular
+	p
+		font-size: 18px
+		color: #f1f1f1
+		line-height: 24px
+		font-family: TTDrugs-Thin
+		margin-top: 35px
+	.form
+		.form-heading
+			font-size: 30px
+			color: #f1f1f1
+			font-family: TTDrugs-Thin
+			margin-bottom: 3rem
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+		.form-group
+			margin-bottom: 2.5rem
+		input
+			background-color: transparent
+			border-bottom: 1px solid #ff6600
+			border-radius: 0
+			border-left: 1px solid transparent
+			border-right: 1px solid transparent
+			border-top: 1px solid transparent
+			height: 42px
+			color: #f1f1f1
+			font-family: TTDrugs-Thin
+			font-weight: 400
+			&:focus
+				box-shadow: none
+			+placeholder
+				color: #f1f1f1
+				font-family: TTDrugs-Thin
+				font-weight: 400
+		.btn
+			border: 1px solid #ff6600
+			background-color: transparent
+			border-radius: 34px
+			text-transform: uppercase
+			color: #fff
+			font-size: 18px
+			font-weight: 400
+			font-family: sofiapro-light
+			padding: 1.2rem 5.4rem
+.seo-text
+	+box
+	+clr
+	padding: 80px 0 40px 0
+	+r(480)
+		padding: 0
+	h1
+		font-weight: 400
+		font-family: sofiapro-light
+		font-size: 80px
+		text-align: center
+		margin-bottom: 40px
+		+r(480)
+			font-size: 40px
+			margin-bottom: 0
+
+	p
+		font-size: 24px
+		font-family: TTDrugs-Thin
+		font-weight: 400
+		color: #1b2026
+		font-style: normal
+		+r(480)
+			font-size: 12px
+
+.btn-apply
+	background: #ff6600
+	border-radius: 34px
+	padding: 1.2rem 6rem
+	text-transform: uppercase
+	font-size: 24px
+	color: #fff
+	font-weight: 400
+	font-family: sofiapro-light
+	margin-top: 30px
