@@ -13,7 +13,6 @@
 			color: #fff
 			&:hover
 				text-decoration: none
-
 		&:before
 			content: ''
 			position: absolute
@@ -37,6 +36,89 @@
 			background-color: #0069d9
 			border-color: #0062cc
 			color: #1b2026
+.prices
+	+box
+	+clr
+	background: #1b2026
+	.container
+		padding: 90px 0
+		.heading
+			font-size: 64px
+			color: #fff
+			font-weight: 400
+			font-family: MinionPro-Regular
+			line-height: 4rem
+			margin-bottom: 60px
+			position: relative
+		.form-inline
+			.form-control
+				width: 100%
+				background-color: transparent
+				border-bottom: 1px solid #ff6600
+				border-radius: 0
+				border-left: 1px solid transparent
+				border-right: 1px solid transparent
+				border-top: 1px solid transparent
+				height: 42px
+				color: #f1f1f1
+				font-family: TTDrugs-Thin
+				font-weight: 400
+				-webkit-transition: width 2s
+				transition: width 2s
+				&:focus
+					box-shadow: none
+					background: #000
+					-webkit-transition: width 2s
+					transition: width 2s
+				+placeholder
+					color: #f1f1f1
+					font-family: TTDrugs-Thin
+					font-weight: 400
+		.center
+			margin-top: 50px
+			text-align: center
+			.button.button--aylen
+				background: #ff6600
+				font-size: 24px
+				text-transform: uppercase
+				color: #fff
+				font-family: sofiapro-light
+				font-weight: 400
+				padding: 15px 56px
+				cursor: pointer
+				&:hover
+					background: transparent
+
+.need
+	+box
+	+clr
+	.container	
+		padding: 90px 0
+		.heading
+			font-size: 80px
+			color: #1b2026
+			font-weight: 400
+			font-family: MinionPro-Regular
+			line-height: 6rem
+			margin-bottom: 60px
+			position: relative
+		.item
+			position: relative
+			padding-left: 55px
+			color: #1b2026
+			font-size: 24px
+			font-family: TTDrugs-Thin
+			line-height: 2rem
+			padding: 15px 0 15px 55px
+			&:before
+				content: ''
+				position: absolute
+				left: 0
+				top: 50%
+				margin-top: -9px
+				width: 19px
+				height: 19px
+				background: #ff6600
 .why
 	+box
 	+clr
@@ -80,7 +162,8 @@
 					margin-top: -10px
 		.adv
 			.item
-				
+				padding: 40px 40px
+				text-align: center
 				.name
 					font-size: 24px
 					color: #555555
@@ -282,22 +365,25 @@
 			color: #f1f1f1
 			font-family: TTDrugs-Thin
 			font-weight: 400
+			-webkit-transition: width 2s
+			transition: width 2s
 			&:focus
 				box-shadow: none
+				background: #000
+				-webkit-transition: width 2s
+				transition: width 2s
+				
+
 			+placeholder
 				color: #f1f1f1
 				font-family: TTDrugs-Thin
 				font-weight: 400
-		.btn
+		.button
 			border: 1px solid #ff6600
 			background-color: transparent
 			border-radius: 34px
-			text-transform: uppercase
-			color: #fff
-			font-size: 18px
-			font-weight: 400
-			font-family: sofiapro-light
-			padding: 1.2rem 5.4rem
+
+		
 .seo-text
 	+box
 	+clr
